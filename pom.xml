@@ -4,15 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<distributionManagement>
 		<repository>
-			<id>alliance</id>
-			<name>alliance-releases</name>
-			<url>http://10.10.5.28:8081/artifactory/Alliance</url>
+			<id>mavenRepo</id>
+			<url>http://repo1.maven.org/maven2/</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
 		</repository>
-		<snapshotRepository>
-			<id>alliance</id>
-			<name>alliance-releases</name>
-			<url>http://10.10.5.28:8081/artifactory/Alliance</url>
-		</snapshotRepository>
 	</distributionManagement>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
