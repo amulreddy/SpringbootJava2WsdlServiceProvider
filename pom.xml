@@ -4,14 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<distributionManagement>
 		<repository>
-			<id>alliance</id>
-			<name>alliance-releases</name>
-			<url>http://10.10.5.28:8081/artifactory/Alliance</url>
+			<id>central</id>
+                        <name>jfrog-dependencies</name>
+                        <url>https://oss.jfrog.org/artifactory/jfrog-dependencies</url>
 		</repository>
 		<snapshotRepository>
-			<id>alliance</id>
-			<name>alliance-releases</name>
-			<url>http://10.10.5.28:8081/artifactory/Alliance</url>
+			 <id>snapshots</id>
+                    	 <name>plugins-snapshot</name>
+                   	 <url>https://oss.jfrog.org/artifactory/plugins-snapshot</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<parent>
